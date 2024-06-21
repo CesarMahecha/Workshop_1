@@ -19,8 +19,8 @@ namespace Workshop_1
             return $"{Id} {Description}" +
                 $"\n\tMeasurement: {Measurement}" +
                 $"\n\tQuantity...: {$"{Quantity:F2}",15}" +
-                $"\n\tPrice......: {$"{Price}",15}" +
-                $"\n\tTax........: {$"{Tax}",15}" +
+                $"\n\tPrice......: {$"{Price:C2}",15}" +
+                $"\n\tTax........: {$"{Tax:P2}",15}" +
                 $"\n\tValue......: {$"{ValueToPay():C2}",15}";
         }
     }
