@@ -11,8 +11,8 @@ namespace Workshop_1
         public override string ToString()
         {
             return $"{Id}  {Description}" +
-                $"\n\tPrice......: {$"{Price:C2}", 15}" +
-                $"\n\tTax........: {$"{Tax:P2}", 15}";
+                $"\n\tPrice......: {$"{Price:C2}",15}" +
+                $"\n\tTax........: {$"{Tax:P2}",15}";
         }
     }
 }

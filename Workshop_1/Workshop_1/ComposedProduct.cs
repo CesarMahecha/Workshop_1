@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace Workshop_1
+﻿namespace Workshop_1
 {
     public class ComposedProduct : Product
     {
@@ -13,7 +11,7 @@ namespace Workshop_1
             {
                 totalValueToPay += product.ValueToPay();
             }
-            return totalValueToPay * (1-(decimal)Discount);
+            return totalValueToPay * (1 - (decimal)Discount);
         }
         public override string ToString()
         {
